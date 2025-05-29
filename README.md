@@ -116,12 +116,6 @@ To change the tone of replies:
 
 
 
-# 🛡️ License
-
-This project is licensed under the MIT License — feel free to use, fork, and improve.
-
-
-
 # 🙌 Author
 
 *Thishika K*
