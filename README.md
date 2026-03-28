@@ -36,24 +36,6 @@ This project introduces an **Intelligent Twitter Agent** that:
 | Transformers / GPT | Open-source text generation    |
 
 
-
-# 📂 Folder Structure
-
-
-
-twitter-bot/
-├── main.py             
-├── app/
-│   └── gpt_handle.py 
-│   └── sentiment.py
-│   └── twitter.py
-├── Dockerfile
-├── requirements.txt     
-└── README.md
-
-
-
-
 # 🚀 Getting Started
 
 1. **Clone the repository**
@@ -89,7 +71,6 @@ python main.py
 [ ] Brand tone selector UI
 [ ] Fine-tuned sentiment model
 [ ] Feedback loop to improve reply accuracy
-
 
 
 # 🙌 Author
