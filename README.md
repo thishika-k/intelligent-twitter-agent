@@ -12,7 +12,7 @@ This project introduces an **Intelligent Twitter Agent** that:
 - Reads mentions/comments from Twitter (or a JSON file)
 - Detects sentiment of each tweet
 - Crafts replies that match your **brand’s voice**
-- Logs all interactions for learning and improvement
+
 
 > Built 100% using open-source tools. No paid APIs. Just Python magic.
 
@@ -34,8 +34,6 @@ This project introduces an **Intelligent Twitter Agent** that:
 | Python           | Core programming language        |
 | TextBlob         | Sentiment analysis               |
 | Transformers / GPT | Open-source text generation    |
-| JSON             | Input/Output storage             |
-| CLI              | Quick demo interaction           |
 
 
 
@@ -43,17 +41,14 @@ This project introduces an **Intelligent Twitter Agent** that:
 
 
 
-intelligent-twitter-agent/
-├── main.py              # Main entry point
-├── sentiment.py         # Sentiment analysis module
-├── responder.py         # Reply generator using GPT
-├── config.py            # Brand tone & templates
-├── utils.py             # Helper functions
-├── data/
-│   └── sample\_tweets.json # Sample mentions
-├── logs/
-│   └── replies\_log.json   # Reply outputs
-├── requirements.txt     # Python dependencies
+twitter-bot/
+├── main.py             
+├── app/
+│   └── gpt_handle.py 
+│   └── sentiment.py
+│   └── twitter.py
+├── Dockerfile
+├── requirements.txt     
 └── README.md
 
 
@@ -87,25 +82,6 @@ pip install -r requirements.txt
 python main.py
 ``
 
-
-
-# 🧪 Sample Run
-
-* The agent reads tweets from `data/sample_tweets.json`
-* Analyzes each tweet’s sentiment
-* Generates and logs personalized replies to `logs/replies_log.json`
-
-
-# 📌 Customization
-
-To change the tone of replies:
-
-* Open `config.py`
-* Modify the `BRAND_TONE_PROMPT` template
-* You can also adjust keywords or predefined tone templates
-
-
-
 # 🔮 Future Enhancements
 
 [ ] Twitter API Integration for live mentions
@@ -120,5 +96,9 @@ To change the tone of replies:
 
 *Thishika K*
 Built as part of a hackathon challenge
-Made with 💡, ☕, and Open Source
+Made with 💡, ☕
+
+# ⭐ Support
+
+If you like this project, consider giving it a ⭐
 
