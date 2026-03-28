@@ -3,7 +3,6 @@
 An open-source, AI-powered assistant that helps *brands and creators* respond to their audience on Twitter/X—automatically, thoughtfully, and in real-time.
 
 
-
 # ✨ Overview
 
 In the fast-paced world of social media, creators and brands receive hundreds of mentions, questions, and messages daily. Manual replies aren't scalable—and most bots sound robotic.
@@ -49,8 +48,8 @@ cd intelligent-twitter-agent
 `bash
 python -m venv venv
 venv\Scripts\activate  # For Windows
-# source venv/bin/activate  # For Mac/Linux
 `
+# source venv/bin/activate  # For Mac/Linux
 
 3. **Install dependencies**
 
@@ -63,6 +62,7 @@ pip install -r requirements.txt
 ``bash
 python main.py
 ``
+
 
 # 🔮 Future Enhancements
 
@@ -78,6 +78,7 @@ python main.py
 *Thishika K*
 Built as part of a hackathon challenge
 Made with 💡, ☕
+
 
 # ⭐ Support
 
